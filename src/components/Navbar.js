@@ -1,5 +1,7 @@
 import { Link } from "react-scroll";
-
+import logo from "../images/logo_small.png";
+<img src={logo}/>
+//<img src={logo} className="img-logo"/>
 function Navbar() {
   document.addEventListener("scroll", function (e) {
     if (window.screen.width < 768 && window.scrollY > 690) {
@@ -41,7 +43,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              DarkLeas
+              Prof. Dr. Münevver Moran
             </Link>
           </h1>
           <ul className="bar">
@@ -54,7 +56,7 @@ function Navbar() {
                 duration={1000}
                 to="headerbg"
               >
-                Home
+                Anasayfa
               </Link>
             </li>
             <li>
@@ -66,7 +68,7 @@ function Navbar() {
                 smooth={true}
                 duration={1000}
               >
-                Services
+                Uzmanlık Alanlarımız
               </Link>
             </li>
             <li>
@@ -78,7 +80,7 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
-                About
+                Hakkımızda
               </Link>
             </li>
             <li>
@@ -90,7 +92,7 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
-                Contact
+                İletişim
               </Link>
             </li>
           </ul>
