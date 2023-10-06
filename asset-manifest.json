@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DrWebsite/static/css/main.6ec4df52.css",
+    "main.js": "/DrWebsite/static/js/main.c239a83a.js",
+    "static/media/IMG_0773.jpg": "/DrWebsite/static/media/IMG_0773.d7c86ca78a8277461a96.jpg",
+    "static/media/office.jpg": "/DrWebsite/static/media/office.4edb795b89ef25fb752b.jpg",
+    "static/media/logo.png": "/DrWebsite/static/media/logo.c7b00b5f3a120db4021e.png",
+    "index.html": "/DrWebsite/index.html",
+    "main.6ec4df52.css.map": "/DrWebsite/static/css/main.6ec4df52.css.map",
+    "main.c239a83a.js.map": "/DrWebsite/static/js/main.c239a83a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ec4df52.css",
+    "static/js/main.c239a83a.js"
+  ]
+}
